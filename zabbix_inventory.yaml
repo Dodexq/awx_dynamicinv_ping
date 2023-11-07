@@ -1,0 +1,7 @@
+plugin: community.zabbix.zabbix_inventory
+server_url: http://192.168.0.125:8080
+login_user: Admin
+login_password: zabbix
+add_zabbix_groups: true
+host_zapi_query:
+  selectInterfaces: ['dns', 'ip']
